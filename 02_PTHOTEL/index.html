@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Welcome to Pyung-Taek Tourist Hotel</title>
+	<link rel="stylesheet" href="css/normalize-min.css">
+	<link rel="stylesheet" href="css/gs-960px.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<style>
+	.intro {display:none}
+	.circle {cursor:pointer}
+	.circle {height:13px;width:13px;padding:0}
+</style>
+
+<body>
+	<div class="header">
+		<div class="logo">
+			<img src="img/logo_01.png" alt="logo"/>
+		</div>
+
+		<nav class="nav">
+			<ul class="menu col-10 prefix-1">
+				<li><a href="#" class="intro">호텔소개</a></li>
+				<li><a href="#" class="room">객실소개</a></li>
+				<li><a href="#" class="sight">주변관광지</a></li>
+				<li><a href="#" class="facility">부대시설</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="visual w3-content w3-display-container">
+		<div class="shade"></div>
+		<img class="intro" src="img/home/1_lobby.JPG" style="width:960px">
+		<img class="intro" src="img/home/2_cafe.JPG" style="width:960px">
+		<img class="intro" src="img/home/3_cafe2.JPG" style="width:960px">
+		<img class="intro" src="img/home/4_room1.JPG" style="width:960px">
+		<h1 class="col-6 prefix-3">WELCOME TO</h1>
+		<h3 class="col-6 prefix-3">PYUNGTAEK TOURIST HOTEL</h3>
+
+		 <div class="indicatior w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:100%">
+		    <span class="circle w3-hover-white" onclick="currentDiv(1)"></span>
+		    <span class="circle w3-hover-white" onclick="currentDiv(2)"></span>
+		    <span class="circle w3-hover-white" onclick="currentDiv(3)"></span>
+		 </div>
+
+	</div>
+
+	<div class="footer">
+		<div class="contents">
+			<img src="img/logo_02.png" alt="logo"/>
+			
+			<div class="contact col-3">
+				<p><span style="font-weight:bold; color:#fff">CONTACT INFO</span><br><br>
+					연락처  |  031) 654-3333 <br>
+					<span style="font-weight:bold; color:#fff">
+					예약문의  |  1644-1322  </span><br>
+					이메일  |  pthosung@hanmail.net
+				</p>
+			</div>
+
+			<div class="address col-3 prefix-9">
+				<p><span style="font-weight:bold; color:#fff">평택관광호텔</span> <br><br>
+				
+					지번주소  |  경기도 평택시 평택동 62-10 <br>
+					도로명 주소  |  경기도 평택시 평택1로 7 <br>
+					사업자 등록번호  |  125-81-04717
+				</p>
+			</div>
+
+			<div class="copyright col-4 prefix-4">
+				<p>copyright (c) 2016 pthotel.co.kr. All right reserved.</p>
+			</div>
+		</div>
+	</div>
+	
+
+<!-- 	<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+
+		function currentDiv(n) {
+		  showDivs(slideIndex = n);
+		}
+
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("intro");
+		  var dots = document.getElementsByClassName("circle");
+		  if (n > x.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+		     x[i].style.display = "none";
+		  }
+		  for (i = 0; i < dots.length; i++) {
+		     dots[i].className = dots[i].className.replace(" w3-white", "");
+		  }
+		  x[slideIndex-1].style.display = "block";
+		  dots[slideIndex-1].className += " w3-white";
+		}
+	</script> -->
+
+	<!-- <script>
+	var slideIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("intro");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > x.length) {slideIndex = 1} 
+    x[slideIndex-1].style.display = "block"; 
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script> -->
+
+</body>
+</html>
