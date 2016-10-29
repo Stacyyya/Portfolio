@@ -18,6 +18,7 @@ body.show-leading::before {
 	background-size: 1px 24px;
 }
 
+/*header*/
 .header {
 	margin: 0 auto;
 	width :960px;
@@ -43,6 +44,7 @@ body.show-leading::before {
 .logo p {
 	margin-top: 5px;
 }
+
 
 .clearfix:after {
     display:block;
@@ -140,48 +142,114 @@ body.show-leading::before {
 }
 
 
-/* visual */
-.visual {
-	margin: 0 auto;
+
+
+/* Container */
+
+.container {
 	width: 960px;
-	height: 648px;
+	height: 400px;
+	background-color: #fff;
 }
 
-.visual h1 {
-	position: absolute;
-	top: 450px;
+
+/* side nav */
+.sidenav {
+	margin: 0;
+	padding: 0;
+	height: inherit;
+	float: left;
+	background-color: #efefef;
+}
+
+.sidenav li {
+	list-style: none;
+	position: relative;
+	left: 20px;
+	padding-top: 24px;
+}
+
+.sidenav a {
+	border: none;
+    text-decoration: none;
+	color: #33394d;
+}
+
+.sidenav .arrow {
+	display: none;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #33394d;
+}
+
+.sidenav li:hover .arrow,
+.sidenav li:focus .arrow,
+.sidenav li:active .arrow,
+.sidenav .selected .arrow {
+	display: inline-block;
+	position: relative;
+	left: -20px;
+	top: 0px;
+}
+
+
+.sidenav li a:hover,
+.sidenav li a:focus,
+.sidenav li a:active,
+.sidenav .selected a {
+	border: none;
+	text-decoration: none;
+	font-family: "KoPubDotum Medium";
+}
+
+
+
+
+/* philosophy */
+
+.row {
+	margin-top: 48px;
+	font-family: 'KoPubDotum Light';
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.1em;
+}
+
+.philosophy .circle {
+	float: left;
+	margin-right: 24px;
+	width: 48px;
+	height: 48px;
+	font-family: 'KoPubDotum Light';
+	font-style: normal; 
+	font-size: 24px;
+	color: #33394d;
+	line-height: 50px;
 	text-align: center;
-	font-family: 'Montserrat';
-	font-weight: normal;
-	font-size: 30px;
-	line-height: 1.5;
-	letter-spacing: 0.2em;
-	color: #fff;
+	background-color: #eee;
+	border-radius: 30px;
+
 }
 
-.visual h3 {
-	position: absolute;
-	top: 500px;
-	text-align: center;
-	font-family: 'Montserrat';
-	font-weight: normal;
-	font-size: 22px;
-	line-height: 1;
-	letter-spacing: 0.2em;
-	color: #fff;
+.philosophy .paragraph-1 {
+	margin: 0;
+	padding-top: 10px;
 }
 
-.visual .shade {
-	position: absolute;
-	width: 960px;
-	height: 648px;
-	background-color: #33394d;
-	opacity: 0.4;
-
+.philosophy .paragraph {
+	display: block;
+	margin: 0;
+	font-family: 'KoPubDotum Light';
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.1em;
 }
 
 
 
+
+
+/* footer */
 
 .footer {
 	width: 100%;
@@ -238,6 +306,16 @@ body.show-leading::before {
 	line-height: 1.7;
 	color: #aaa;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

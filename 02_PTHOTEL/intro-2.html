@@ -5,19 +5,8 @@
 	<title>Welcome to Pyung-Taek Tourist Hotel</title>
 	<link rel="stylesheet" href="css/normalize-min.css">
 	<link rel="stylesheet" href="css/gs-960px.css">
-	<link rel="stylesheet" href="css/style.css">
-<!-- 	<link rel="stylesheet" href="css/w3slider.css">
- --></head>
-
-<style>
-	.intro {
-		display:none
-	}
-	.w3-badge {
-		cursor:pointer;
-		height:13px;width:13px;padding:0
-	}
-</style>
+	<link rel="stylesheet" href="css/intro-2.css">
+</head>
 
 <body>
 <!--header-->
@@ -75,22 +64,37 @@
 	</div>
 
 
-<!--visual-->
-	<div class="visual w3-content w3-display-container">
-		<div class="shade"> </div>
-		<img class="slider" src="img/home/1_lobby.JPG" style="width:960px">
-		<img class="slider" src="img/home/2_cafe.JPG" style="width:960px">
-		<img class="slider" src="img/home/3_cafe2.JPG" style="width:960px">
-		<img class="slider" src="img/home/4_room1.JPG" style="width:960px">
-		<h1 class="col-6 prefix-3">WELCOME TO</h1>
-		<h3 class="col-6 prefix-3">PYUNGTAEK TOURIST HOTEL</h3>
-	
-		<div class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:100%">
-    		<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-    		<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-   			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-   			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
-  		</div>
+
+	<div class="container">
+		<ul class="sidenav col-3">
+				<li><div class="arrow"></div><a href="intro-1.html">인사말</a></li>
+				<li class="selected"><div class="arrow"></div><a href="intro-2.html">경영이념</a></li>
+				<li><div class="arrow"></div><a href="intro-3.html">오시는 길</a></li>
+		</ul>
+
+		<div class="philosophy">
+			<div class="row col-8 prefix-1">
+				<div class="circle">1</div>
+				<p class="paragraph-1">최고의 정성을 가지고 귀한 분들을 모시겠습니다.
+				</p>
+			</div>
+
+			<div class="row col-8 prefix-1">
+				<div class="circle">2</div>
+				<p class="paragraph">저희 평택관광호텔은 정직과 믿음을 바탕으로 <br>
+				고객 분들을 내 가족처럼 생각하고 최선을 다해 모시겠습니다.
+				</p>				
+			</div>
+
+			<div class="row col-8 prefix-1">
+				<div class="circle">3</div>
+				<p class="paragraph">최고의 시설과 서비스를 자부하며 <br>
+				항상 정성을 다해 고객님들을 모시겠습니다.
+				</p>
+			</div>
+		</div>
+
+
 	</div>
 
 <!--footer-->
@@ -122,36 +126,7 @@
 			</div>
 		</div>
 	</div>
-	
 
-	<script>
-		var slideIndex = 1;
-		showDivs(slideIndex);
-
-		function plusDivs(n) {
-		  showDivs(slideIndex += n);
-		}
-
-		function currentDiv(n) {
-		  showDivs(slideIndex = n);
-		}
-
-		function showDivs(n) {
-		  var i;
-		  var x = document.getElementsByClassName("slider");
-		  var dots = document.getElementsByClassName("demo");
-		  if (n > x.length) {slideIndex = 1}
-		  if (n < 1) {slideIndex = x.length}
-		  for (i = 0; i < x.length; i++) {
-		     x[i].style.display = "none";
-		  }
-		  for (i = 0; i < dots.length; i++) {
-		     dots[i].className = dots[i].className.replace(" w3-white", "");
-		  }
-		  x[slideIndex-1].style.display = "block";
-		  dots[slideIndex-1].className += " w3-white";
-		}
-	</script>
 
 
 </body>

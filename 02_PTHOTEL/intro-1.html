@@ -5,19 +5,8 @@
 	<title>Welcome to Pyung-Taek Tourist Hotel</title>
 	<link rel="stylesheet" href="css/normalize-min.css">
 	<link rel="stylesheet" href="css/gs-960px.css">
-	<link rel="stylesheet" href="css/style.css">
-<!-- 	<link rel="stylesheet" href="css/w3slider.css">
- --></head>
-
-<style>
-	.intro {
-		display:none
-	}
-	.w3-badge {
-		cursor:pointer;
-		height:13px;width:13px;padding:0
-	}
-</style>
+	<link rel="stylesheet" href="css/intro-1.css">
+</head>
 
 <body>
 <!--header-->
@@ -75,22 +64,36 @@
 	</div>
 
 
-<!--visual-->
-	<div class="visual w3-content w3-display-container">
-		<div class="shade"> </div>
-		<img class="slider" src="img/home/1_lobby.JPG" style="width:960px">
-		<img class="slider" src="img/home/2_cafe.JPG" style="width:960px">
-		<img class="slider" src="img/home/3_cafe2.JPG" style="width:960px">
-		<img class="slider" src="img/home/4_room1.JPG" style="width:960px">
-		<h1 class="col-6 prefix-3">WELCOME TO</h1>
-		<h3 class="col-6 prefix-3">PYUNGTAEK TOURIST HOTEL</h3>
-	
-		<div class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:100%">
-    		<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
-    		<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
-   			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
-   			<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
-  		</div>
+
+	<div class="container">
+		<ul class="sidenav col-3">
+				<li class="selected"><div class="arrow"></div><a href="intro-1.html">인사말</a></li>
+				<li><div class="arrow"></div><a href="intro-2.html">경영이념</a></li>
+				<li><div class="arrow"></div><a href="intro-3.html">오시는 길</a></li>
+		</ul>
+
+		<div class="about-us">
+			<h3 class="title col-8 prefix-1">평택관광호텔 홈페이지를 방문해 주셔서 감사합니다.</h3>
+			<p class="paragraph col-8 prefix-1">최상의 서비스로 가족처럼 따뜻하게 모시겠습니다. <br>
+			한국 반도체 비즈니스의 중심지인 평택에서는 유일한 비즈니스 호텔로서 <br>
+			지상 7층, 지하 1층으로 50개의 안락한 객실로 구성되어 있습니다.<br>
+			다양한 레스토랑과 최고의 시설을 갖춘 스카이 라운지까지 완벽한 호텔의 면모로  <br>비즈니스는물론 일반 고객들도 자유로이 이용 하실 수 있도록 설계 되었습니다.<br><br>
+
+			또한 국내 최초로 로열티를 지불하지 않는 순수 국내 자본의 호텔로서 <br>
+			한국 최고 호텔에서 세계 최고의 호텔로 거듭나기 위해 장기적인 시설 투자와 원칙적인 경영, <br>
+			끊임없는 변화와 혁신의 노력을 계속해 나아갈 것입니다.<br>
+			그리하여 선진기업 문화 속에서 더욱 편안하고 수준 높은 고객 서비스를 제공하겠습니다.<br><br>
+
+			평택관광호텔은 고객과의 시간을 더욱 소중하게 가꾸어 나아갈 것 입니다.<br>
+			저희 호텔을 향한 끊임없는 사랑에 깊은 감사를 드리며 언제나 그 마음을 소홀히 하지 않는 <br>
+			정성 어린 서비스로 고객 한 분 한 분에게 보답해 나아가겠습니다.<br><br>
+
+			앞으로도 비즈니스나 여행 목적으로 저희 호텔을 방문하시는 모든 분들께 <br>
+			최고의 시설, 최상의 서비스, 최적의 가격으로 가족처럼 따뜻하게 모실 것을 약속 드립니다.
+			</p>
+		</div>
+
+
 	</div>
 
 <!--footer-->
@@ -122,36 +125,7 @@
 			</div>
 		</div>
 	</div>
-	
 
-	<script>
-		var slideIndex = 1;
-		showDivs(slideIndex);
-
-		function plusDivs(n) {
-		  showDivs(slideIndex += n);
-		}
-
-		function currentDiv(n) {
-		  showDivs(slideIndex = n);
-		}
-
-		function showDivs(n) {
-		  var i;
-		  var x = document.getElementsByClassName("slider");
-		  var dots = document.getElementsByClassName("demo");
-		  if (n > x.length) {slideIndex = 1}
-		  if (n < 1) {slideIndex = x.length}
-		  for (i = 0; i < x.length; i++) {
-		     x[i].style.display = "none";
-		  }
-		  for (i = 0; i < dots.length; i++) {
-		     dots[i].className = dots[i].className.replace(" w3-white", "");
-		  }
-		  x[slideIndex-1].style.display = "block";
-		  dots[slideIndex-1].className += " w3-white";
-		}
-	</script>
 
 
 </body>
