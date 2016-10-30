@@ -144,12 +144,12 @@ body.show-leading::before {
 .visual {
 	margin: 0 auto;
 	width: 960px;
-	height: 648px;
+	height: 640px;
 }
 
 .visual h1 {
 	position: absolute;
-	top: 450px;
+	top: 280px;
 	text-align: center;
 	font-family: 'Montserrat';
 	font-weight: normal;
@@ -161,7 +161,7 @@ body.show-leading::before {
 
 .visual h3 {
 	position: absolute;
-	top: 500px;
+	top: 330px;
 	text-align: center;
 	font-family: 'Montserrat';
 	font-weight: normal;
@@ -174,7 +174,7 @@ body.show-leading::before {
 .visual .shade {
 	position: absolute;
 	width: 960px;
-	height: 648px;
+	height: 640px;
 	background-color: #33394d;
 	opacity: 0.4;
 

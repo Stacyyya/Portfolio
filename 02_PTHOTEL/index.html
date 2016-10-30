@@ -6,8 +6,8 @@
 	<link rel="stylesheet" href="css/normalize-min.css">
 	<link rel="stylesheet" href="css/gs-960px.css">
 	<link rel="stylesheet" href="css/style.css">
-<!-- 	<link rel="stylesheet" href="css/w3slider.css">
- --></head>
+	<link rel="stylesheet" href="css/slider.css">
+</head>
 
 <style>
 	.intro {
@@ -62,11 +62,11 @@
 				<li>
 					<a href="#" class="facility">부대시설</a>
 					<ul class="sub-menu">
-	                    <li><a href="facility-1.html">커피숍</a></li>
-	                    <li><a href="facility-2.html">미팅룸</a></li>
-	                    <li><a href="facility-3.html">레스토랑</a></li>
-	                    <li><a href="facility-4.html">비즈니스센터</a></li>
-	                    <li><a href="facility-5.html">Bar</a></li>
+	                    <li><a href="facilities-1.html">커피숍</a></li>
+	                    <li><a href="facilities-2.html">미팅룸</a></li>
+	                    <li><a href="facilities-3.html">레스토랑</a></li>
+	                    <li><a href="facilities-4.html">비즈니스센터</a></li>
+	                    <li><a href="facilities-5.html">Bar</a></li>
  		            </ul>
 				</li>
 			</ul>
@@ -78,10 +78,10 @@
 <!--visual-->
 	<div class="visual w3-content w3-display-container">
 		<div class="shade"> </div>
-		<img class="slider" src="img/home/1_lobby.JPG" style="width:960px">
-		<img class="slider" src="img/home/2_cafe.JPG" style="width:960px">
-		<img class="slider" src="img/home/3_cafe2.JPG" style="width:960px">
-		<img class="slider" src="img/home/4_room1.JPG" style="width:960px">
+		<img class="slide" src="img/home/1_lobby.JPG" style="width:960px">
+		<img class="slide" src="img/home/2_cafe.JPG" style="width:960px">
+		<img class="slide" src="img/home/3_cafe2.JPG" style="width:960px">
+		<img class="slide" src="img/home/4_room1.JPG" style="width:960px">
 		<h1 class="col-6 prefix-3">WELCOME TO</h1>
 		<h3 class="col-6 prefix-3">PYUNGTAEK TOURIST HOTEL</h3>
 	
@@ -138,7 +138,7 @@
 
 		function showDivs(n) {
 		  var i;
-		  var x = document.getElementsByClassName("slider");
+		  var x = document.getElementsByClassName("slide");
 		  var dots = document.getElementsByClassName("demo");
 		  if (n > x.length) {slideIndex = 1}
 		  if (n < 1) {slideIndex = x.length}
@@ -152,6 +152,7 @@
 		  dots[slideIndex-1].className += " w3-white";
 		}
 	</script>
+
 
 
 </body>
