@@ -24,6 +24,32 @@ body.show-leading::before {
 	height: 192px;
 }
 
+.logo .language {
+	height: 0;
+}
+
+.logo .language a {
+	position: relative;
+	top: 30px;
+	right: -420px;
+	color: #33394d;
+    font-size: 12px;
+    line-height: 24px;
+	text-decoration: underline;
+	letter-spacing: -0.03em;
+}
+.logo .language a:hover {
+	position: relative;
+	top: 30px;
+	right: -420px;
+	color: #FF7F00;
+	text-decoration: underline;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: -0.03em
+}
+
+
 .logo {
 	text-align: center;
 	font-family: 'Montserrat';
