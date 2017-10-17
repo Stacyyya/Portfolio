@@ -200,9 +200,9 @@ body.show-leading::before {
 
 .visual .scroll img {
 	display: block;
-	padding-top: 120px;
-	padding-bottom: 80px;
-	margin: 0 auto;
+	margin-top: 120px;
+	margin-bottom: 80px;
+	margin-left: 50%;
 	width: 50px;
 	height: 50px;
 }
@@ -225,7 +225,7 @@ body.show-leading::before {
 	margin: 0 auto;
 }
 
-.container .work1 {
+.container .work {
 	width: 940px;
 	height: 500px;
 	margin: 0 auto;
@@ -239,49 +239,6 @@ body.show-leading::before {
 	color: #e6e8ea;
 }
 
-.container .work2 {
-	width: 940px;
-	height: 500px;
-	margin: 0 auto;
-	margin-bottom: 50px;
-	background-color: #fff;
-    border: 1px solid rgba(73, 82, 98, 0);
-    border-radius: 10px;
-	box-shadow: rgba(73, 82, 98, 0.15) 0px 6px 40px 0px;
-	text-align: center;
-	line-height: 500px;
-	color: #e6e8ea;
-}
-
-
-.container .work3 {
-	width: 940px;
-	height: 500px;
-	margin: 0 auto;
-	margin-bottom: 50px;
-	background-color: #fff;
-    border: 1px solid rgba(73, 82, 98, 0);
-    border-radius: 10px;
-	box-shadow: rgba(73, 82, 98, 0.15) 0px 6px 40px 0px;
-	text-align: center;
-	line-height: 500px;
-	color: #e6e8ea;
-}
-
-
-.container .work4 {
-	width: 940px;
-	height: 500px;
-	margin: 0 auto;
-	margin-bottom: 50px;
-	background-color: #fff;
-    border: 1px solid rgba(73, 82, 98, 0);
-    border-radius: 10px;
-	box-shadow: rgba(73, 82, 98, 0.15) 0px 6px 40px 0px;
-	text-align: center;
-	line-height: 500px;
-	color: #e6e8ea;
-}
 
 
 
