@@ -1,7 +1,7 @@
 body {
 	color: #495262;
 	font-family: 'Avenir';
-	font-weight: normal;
+	font-weight: 400;
 	background-color: rgba(230,232,234,0.2);
 
 }
@@ -151,7 +151,7 @@ body.show-leading::before {
 	padding-bottom: 40px;
 	text-align: left;
 	font-family: 'Avenir';
-	font-weight: black;
+	font-weight: 900;
 	font-size: 40px;
 	letter-spacing: 0px;
 	color: #495262;
@@ -162,7 +162,7 @@ body.show-leading::before {
 	padding-left: 10px;
 	text-align: left;
 	font-family: 'Avenir';
-	font-weight: normal;
+	font-weight: 400;
 	font-size: 24px;
 	line-height: 1.5;
 	letter-spacing: 0px;
@@ -170,7 +170,7 @@ body.show-leading::before {
 }
 
 .visual p .dribbble a {
-	font-weight:bold; 
+	font-weight: 700; 
 	color: #FF4274;
     text-decoration: none;
 
@@ -225,64 +225,91 @@ body.show-leading::before {
 	margin: 0 auto;
 }
 
-.container .work1 {
-	width: 940px;
+.container #work1, #work2, #work3, #work4{
+	width: 960px;
 	height: 500px;
 	margin: 0 auto;
 	margin-bottom: 50px;
 	background-color: #fff;
-    border: 1px solid rgba(73, 82, 98, 0);
+    /*border: 1px solid rgba(73, 82, 98, 0);*/
     border-radius: 10px;
 	box-shadow: rgba(73, 82, 98, 0.15) 0px 6px 40px 0px;
-	text-align: center;
-	line-height: 500px;
+	/*text-align: center;
+	line-height: 500px;*/
 	color: #e6e8ea;
 }
 
-.container .work2 {
-	width: 940px;
+.container #thumnail {
+	width: 540px;
 	height: 500px;
-	margin: 0 auto;
-	margin-bottom: 50px;
-	background-color: #fff;
-    border: 1px solid rgba(73, 82, 98, 0);
-    border-radius: 10px;
-	box-shadow: rgba(73, 82, 98, 0.15) 0px 6px 40px 0px;
-	text-align: center;
-	line-height: 500px;
-	color: #e6e8ea;
+	background-color: #d1d5d9;
+    border-radius: 10px 0px 0px 10px;
+    float: left;
 }
 
-
-.container .work3 {
-	width: 940px;
+.container #description {
+	margin: 0;
+	width: 420px;
 	height: 500px;
-	margin: 0 auto;
-	margin-bottom: 50px;
-	background-color: #fff;
-    border: 1px solid rgba(73, 82, 98, 0);
-    border-radius: 10px;
-	box-shadow: rgba(73, 82, 98, 0.15) 0px 6px 40px 0px;
-	text-align: center;
-	line-height: 500px;
-	color: #e6e8ea;
+	/*background-color: #333;*/
+	float: left;
 }
 
-
-.container .work4 {
-	width: 940px;
-	height: 500px;
-	margin: 0 auto;
-	margin-bottom: 50px;
-	background-color: #fff;
-    border: 1px solid rgba(73, 82, 98, 0);
-    border-radius: 10px;
-	box-shadow: rgba(73, 82, 98, 0.15) 0px 6px 40px 0px;
-	text-align: center;
-	line-height: 500px;
-	color: #e6e8ea;
+.container #description h3 {
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-top: 55px;
+	margin-bottom: 20px;
+	width: 320px;
+	height: 30px;
+	color: #495262;
+	font-family: 'Avenir';
+	font-weight: 700;
+	font-size: 30px;
+	text-align: left;
 }
 
+.container #description h5 {
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-top: 0;
+	margin-bottom: 30px;
+	width: 320px;
+	height: 20px;
+	color: #495262;
+	font-family: 'Avenir';
+	font-weight: 300;
+	font-size: 20px;
+	text-align: left;
+}
+
+.container #description p {
+	padding-right: 50px;
+	padding-left: 50px;
+	margin-top: 0;
+	margin-bottom: 50px;
+	width: 320px;
+	height: 225px;
+	color: #495262;
+	font-family: 'Avenir';
+	font-weight: 300;
+	font-size: 20px;
+	text-align: left;
+	line-height: 32px;
+}
+
+.container #description .work_tag {
+	padding-right: 50px;
+	padding-left: 50px;
+	width: 320px;
+	height: 20px;
+	color: #495262;
+	font-family: 'Avenir';
+	font-weight: 300;
+	font-size: 20px;
+	text-align: left;
+	line-height: 32px;
+}
 
 
 /*Footer*/
