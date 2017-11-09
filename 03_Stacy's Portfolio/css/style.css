@@ -52,34 +52,57 @@ body.show-leading::before {
 	color: #495262;
 }
 
+
+/* dribbble & behance */
+
 .visual p .dribbble a {
+	position: relative;
 	font-weight: 700; 
 	color: #FF4274;
     text-decoration: none;
-
 }
 
-.visual p .dribbble a:hover,
-.visual p .dribbble a:focus,
-.visual p .dribbble a:active {
+.visual p .dribbble a:after {
+	content: '';
+  	position: absolute;
+  	bottom: 0;
+  	left: 0;
 	border-bottom: 2px solid #FF4274; 
-    text-decoration: none;
+	width: 0%;
+	transition: all 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.visual p .dribbble a:hover:after,
+.visual p .dribbble a:focus:after,
+.visual p .dribbble a:active:after {
+	width: 100%;
 }
 
 
 .visual p .behance a {
-	font-weight:bold; 
+	position: relative;
+	font-weight: 700; 
 	color: #2A76FF;
     text-decoration: none;
-
 }
 
-.visual p .behance a:hover,
-.visual p .behance a:focus,
-.visual p .behance a:active {
+.visual p .behance a:after {
+	content: '';
+  	position: absolute;
+  	bottom: 0;
+  	left: 0;
 	border-bottom: 2px solid #2A76FF; 
-    text-decoration: none;
+	width: 0%;
+	transition: all 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
+
+.visual p .behance a:hover:after,
+.visual p .behance a:focus:after,
+.visual p .behance a:active:after {
+	width: 100%;
+}
+
+
 
 .visual .scroll_down {
 	margin-top: 120px;
