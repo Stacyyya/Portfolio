@@ -62,7 +62,7 @@ body.show-leading::before {
     text-decoration: none;
 }
 
-.visual p .dribbble a:after {
+.visual p .dribbble a::after {
 	content: '';
   	position: absolute;
   	bottom: 0;
@@ -72,9 +72,9 @@ body.show-leading::before {
 	transition: all 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.visual p .dribbble a:hover:after,
-.visual p .dribbble a:focus:after,
-.visual p .dribbble a:active:after {
+.visual p .dribbble a:hover::after,
+.visual p .dribbble a:focus::after,
+.visual p .dribbble a:active::after {
 	width: 100%;
 }
 
@@ -86,7 +86,7 @@ body.show-leading::before {
     text-decoration: none;
 }
 
-.visual p .behance a:after {
+.visual p .behance a::after {
 	content: '';
   	position: absolute;
   	bottom: 0;
@@ -96,9 +96,9 @@ body.show-leading::before {
 	transition: all 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.visual p .behance a:hover:after,
-.visual p .behance a:focus:after,
-.visual p .behance a:active:after {
+.visual p .behance a:hover::after,
+.visual p .behance a:focus::after,
+.visual p .behance a:active::after {
 	width: 100%;
 }
 

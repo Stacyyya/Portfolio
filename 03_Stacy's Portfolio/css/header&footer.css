@@ -43,7 +43,7 @@ body.show-leading::before {
 
 
 
-.clearfix:after {
+.clearfix::after {
     display:block;
     clear:both;
 }
@@ -88,7 +88,7 @@ body.show-leading::before {
     text-decoration: none;
 }
  
-.menu > ul > li > a:after {
+.menu > ul > li > a::after {
 	content: '';
   	position: absolute;
   	bottom: 0;
@@ -98,9 +98,9 @@ body.show-leading::before {
 	transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-.menu > ul > li > a:hover:after,
-.menu > ul > li > a:focus:after,
-.menu > ul > li > a:active:after {
+.menu > ul > li > a:hover::after,
+.menu > ul > li > a:focus::after,
+.menu > ul > li > a:active::after {
 	width: 100%;
 }
 

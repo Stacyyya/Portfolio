@@ -34,7 +34,7 @@ body.show-leading::before {
 
 
 
-.clearfix:after {
+.clearfix::after {
     display:block;
     clear:both;
 }
