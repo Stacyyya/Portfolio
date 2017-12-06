@@ -122,9 +122,9 @@ body.show-leading::before {
 	margin: 0;
 	width: 140px;
 	height: 24px;
-	line-height: 14px;
+	text-align: left;	
 	font-size: 16px;
-	font-weight: 400;
+	font-weight: 700;
 	color: #2F3743;
 	text-decoration: none;
 }
