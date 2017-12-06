@@ -182,13 +182,16 @@ body.show-leading::before {
 	color: #e6e8ea;
 }
 
-.container #thumnail {
+
+.container #thumnail img {
 	width: 540px;
 	height: 500px;
-	background-color: #d1d5d9;
-    border-radius: 10px 0px 0px 10px;
+/*	background-image: url(../img/work/bridge_me/Project img2.png);
+	background-size: 540px;*/
+	border-radius: 10px 0px 0px 10px;
     float: left;
 }
+
 
 .container #description {
 	margin: 0;

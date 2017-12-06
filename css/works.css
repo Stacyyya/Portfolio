@@ -1,8 +1,8 @@
 body {
-	color: #495262;
+	color: #2F3743;
 	font-family: 'Avenir';
 	font-weight: 400;
-	background-color: rgba(230,232,234,0.2);
+	background-color: #ffffff;
 
 }
 
@@ -18,127 +18,6 @@ body.show-leading::before {
 	background-size: 1px 24px;
 }
 
-.header {
-	margin: 0 auto;
-	width :960px;
-	height: 100px;
-}
-
-
-
-.logo a img {
-	height: 40px;
-	position: relative;
-	top: 30px;
-}
-
-
-
-.clearfix::after {
-    display:block;
-    clear:both;
-}
- 
- /* menu */
-
-.menu-wrap {
-	height: 100px;
-	position: relative;
-	top: 14px;
-}
-
-.menu li {
-    list-style:none;
-	font-family: 'Avenir';
-}
- 
-.menu > ul > li {
-    float: left;
-    display: inline-block;
-    position: relative;
-}
- 
-.menu > ul > li > a {
-    display:inline-block;
-	border: none;
-    background: none;
-/*    margin-right: 30px;*/    
-	margin-left: 70px;
-	font-family: 'Avenir';
-    color: #495262;
-    font-size: 16px;
-    line-height: 40px;
-    text-decoration: none;
-}
- 
-.menu > ul > li:hover > a,
-.menu > ul > li:focus > a,
-.menu > ul > li:active > a {
-	opacity: 0.5;
-    transition: opacity linear 0.15s;
-/*	transition: 1s, cubic-bezier(0.645, 0.045, 0.355, 1);*/
-/*	border-bottom: 2px solid #495262; 
-	font-family: "Avenir";*/
-}
-
-.language a {
-	text-decoration: none;
-}
-
-.language a .flag {
-	position: relative;
-	top: 25px;
-	width: 24px;
-	height: 24px;
-}
-
-.language a .arrow {
-	position: relative;
-	top: 16px;
-	width: 10px;
-	height: 5px;
-
-}
-
-/* sub-menu */
-/*
-.menu li:hover .sub-menu,
-.menu li:active .sub-menu,
-.menu li:visited .sub-menu  {
-	margin: 0;
-    z-index:1;
-    opacity:1;
-}
- 
-.sub-menu {
-	margin: 0 auto;
-    width: 100%;
-    padding: 5px 0px;
-    position: absolute;
-    top: 100%;
-    left: 0px;
-    z-index: -1;
-    opacity: 0;
-    transition: opacity linear 0.15s;
-    box-shadow: 0px 2px 3px rgba(0,0,0,0.3);
-    background: #eee;
-}
- 
-.sub-menu li {
-    display: block;
-    font-size: 14px;
-}
- 
-.sub-menu li a {
-    padding: 10px 20px;
-    display: block;
-}
- 
-.sub-menu li a:hover {
-    background: #ddd;
-}
-*/
-
 
 /* Contents */
 #title h2 {
@@ -150,12 +29,15 @@ body.show-leading::before {
 	margin-bottom: 30px;
 }
 
-#title p {
+#title .title_info {
 	margin: 0 auto;
 	text-align: center;
-	font-size: 24px;
 	font-weight: 400;
 	margin-bottom: 80px;
+	font-size: 18px;
+	color: rgba(47,55,67,0.50);
+	letter-spacing: 0;
+	line-height: 20px;
 }
 
 #hero img {
@@ -163,41 +45,62 @@ body.show-leading::before {
 	margin: 0 auto;
 	width: 960px;
 	height: 500px;
-/*	background-color: #d1d5d9;
+	padding-bottom: 60px;
+/*	background-color: rgba(47,55,67,0.50);
 */}
 
 #description {
 	margin: 0 auto;
-	width: 800px;
+	width: 1000px;
 /*	margin-top: 60px;
 	margin-bottom: 60px;*/
 }
 
 #description h4 {
+	width: 800px;
+	margin: 0 auto;
 	text-align: left;
 	font-size: 30px;
 	font-weight: 700;
-	margin-top: 120px;
-	margin-bottom: 20px;
+	margin-top: 60px;
+	margin-bottom: 40px;
 }
 
+#description h5 {
+	width: 800px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	color: rgba(47,55,67,0.50);
+}
+
+
 #description p {
+	width: 800px;
 	margin: 0 auto;
 	text-align: left;
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 1.5em;
-	margin-bottom: 120px;
+	line-height: 1.8rem;
+	padding-bottom: 60px;
 }
 
 #description img {
 	display: block;
 	margin: 0 auto;
-	width: 800px;
-	height: 300px;
-	margin-bottom: 120px;
+	width: 1000px;
+	padding-bottom: 60px;
 }
 
+#description .ui_image {
+	display: block;
+	margin: 0 auto;
+	width: 1000px;
+	padding-bottom: 0px
+}
 
 
 /* Pre & Next work arrow */
@@ -205,17 +108,61 @@ body.show-leading::before {
 #description .pagemove {
 	height: 100px;
 	width: 800px;
+	padding-right: 100px;
+	padding-left: 100px;
+	margin-top: 120px;
 }
 
-#description .pagemove .btn_pre {
+#description .pagemove a {
+	/* style */
+	display:inline-block;
+	position: relative;
+	border: none;
+    background: none;
 	margin: 0;
 	width: 140px;
-	height: 20px;
+	height: 24px;
 	line-height: 14px;
 	font-size: 16px;
 	font-weight: 400;
+	color: #2F3743;
+	text-decoration: none;
+}
+
+#description .pagemove .btn_pre:hover,
+#description .pagemove .btn_pre:focus,
+#description .pagemove .btn_pre:active,
+#description .pagemove .btn_next:hover,
+#description .pagemove .btn_next:focus,
+#description .pagemove .btn_next:active {
+	color: #2A76FF;
+	transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/*#description .pagemove a::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-bottom: 2px solid #2F3743;
+	width: 0%;
+	color: red;
+	transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+#description .pagemove a:hover::after,
+#description .pagemove a:focus::after,
+#description .pagemove a:active::after {
+	width: 100%;
+}
+
+*/
+
+
+#description .pagemove .btn_pre {
 	float: left;
 }
+
 
 #description .pagemove .btn_pre img {
 	margin-right: 10px;
@@ -225,12 +172,6 @@ body.show-leading::before {
 }
 
 #description .pagemove .btn_next {
-	margin: 0;
-	width: 140px;
-	height: 20px;
-	line-height: 14px;
-	font-size: 16px;
-	font-weight: 400;
 	text-align: right;
 	float: right;
 
@@ -241,69 +182,7 @@ body.show-leading::before {
 	width: 14px;
 	height: 14px;
 	float: right;
-	transform: rotate(180deg);
 }
-
-
-
-
-/*Footer*/
-
-.footer {
-	margin-top: 200px;
-	width: 100%;
-	height: 300px;
-	background-color: #E6E8EA;
-}
-
-.contents {
-	margin: 0 auto;
-	width: 960px;
-	text-align: left;
-}
-
-.footer .contact, .footer .social{
-	position: relative;
-	width: 480px;
-	margin: 0px;
-	float: left;
-}
-
-.footer .contact p {
-	margin: 0px;
-	padding-top: 50px;
-	font-size: 16px;
-}
-
-.footer .social {
-	margin: 0px;
-	padding-top: 50px;
-	font-size: 12px;
-	text-align: right;
-}
-
-.footer .social a {
-	text-decoration: none;
-}
-
-.footer .social .behance img{
-	height: 18px;
-	padding-bottom: 1px;
-}
-
-.footer .social img {
-	height: 20px;
-	padding-left: 40px;
-}
-
-.footer .copyright {
-	padding-top: 230px;
-	text-align: center;
-	font-size: 14px;
-	color: #495262;
-}
-
-
 
 
 
