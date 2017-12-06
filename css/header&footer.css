@@ -1,5 +1,5 @@
 body {
-	color: #495262;
+	color: #2F3743;
 	font-family: 'Avenir';
 	font-weight: 400;
 	background-color: rgba(230,232,234,0.2);
@@ -20,6 +20,15 @@ body.show-leading::before {
 
 
 
+#header_wrap {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-color: #FAFAFB;
+/*	box-shadow: rgba(73, 82, 98, 0.15) 0px 3px 10px 0px
+*/}
 
 #header {
 	margin: 0 auto;
@@ -82,7 +91,7 @@ body.show-leading::before {
     margin-right: 30px;    
 	margin-left: 30px;
 	font-family: 'Avenir';
-    color: #495262;
+    color: #2F3743;
     font-size: 16px;
     line-height: 30px;
     text-decoration: none;
@@ -93,7 +102,7 @@ body.show-leading::before {
   	position: absolute;
   	bottom: 0;
   	left: 0;
-	border-bottom: 2px solid #495262; 
+	border-bottom: 2px solid #2F3743; 
 	width: 0%;
 	transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -174,11 +183,11 @@ body.show-leading::before {
     padding-top: 3px;
   	display: block;
     text-decoration: none;
-	color: #495262;
+	color: #2F3743;
 }
  
 .dropdown_language li a:hover {
-	color: #495262;
+	color: #2F3743;
     background: #E6E8EA;
     font-weight: 600;
 }
@@ -239,7 +248,7 @@ body.show-leading::before {
 	padding-top: 230px;
 	text-align: center;
 	font-size: 14px;
-	color: #495262;
+	color: #2F3743;
 }
 
 
