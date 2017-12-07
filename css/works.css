@@ -82,9 +82,9 @@ body.show-leading::before {
 	width: 800px;
 	margin: 0 auto;
 	text-align: left;
-	font-size: 16px;
-	font-weight: 400;
-	line-height: 1.8rem;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 2.0rem;
 	padding-bottom: 60px;
 }
 

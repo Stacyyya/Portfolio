@@ -37,7 +37,7 @@ body.show-leading::before {
 
 #about .description h4 {
 	margin: 0;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	color: #2F3743;
 	font-family: 'Avenir';
 	font-weight: 700;
@@ -51,8 +51,8 @@ body.show-leading::before {
 	color: #2F3743;
 	font-family: 'Avenir';
 	font-weight: 300;
-	font-size: 14px;
-	line-height: 1.5;
+	font-size: 18px;
+	line-height: 2.0rem;
 	text-align: center;
 }
 
