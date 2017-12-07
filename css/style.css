@@ -145,7 +145,6 @@ body.show-leading::before {
 	display: block;
 	margin-top: 120px;
 	margin-bottom: 80px;
-	margin-left: 50%;
 	width: 50px;
 	height: 50px;
 }
@@ -181,22 +180,23 @@ body.show-leading::before {
 
 
 .container #thumnail {
-	width: 540px;
+	width: 480px;
 	height: 500px;
-	background-color: rgba(47,55,67,0.10);
+	background-color: #f9f9fa;
 	float: left;
     border-radius: 10px 0px 0px 10px;
 }
 
 .container #thumnail a {
 	text-decoration: none;
+	outline: 0;
 }
 
 .container #thumnail a .dim{
 	display: block;
 	position: absolute;
 	z-index: 1;
-	width: 540px;
+	width: 480px;
 	height: 500px;
 	background-color: rgba(0,0,0,0);
 	text-align: center;
@@ -218,15 +218,17 @@ body.show-leading::before {
 
 
 .container #thumnail img {
-	width: 540px;
-/*	height: 500px;*/
-	border-radius: 10px 0px 0px 10px;
+	position: relative;
+	margin-top: 100px;
+/*	left: -30px;*/
+	width: 480px;
+	overflow: hidden;
 }
 
 
 .container #description {
 	margin: 0;
-	width: 420px;
+	width: 480px;
 	height: 500px;
 	/*background-color: #333;*/
 	float: left;
@@ -235,14 +237,14 @@ body.show-leading::before {
 .container #description a {
 	display: inline-block;
 	text-decoration: none;
+	outline: 0;
 }
 
 .container #description h3 {
 	padding-right: 50px;
 	padding-left: 50px;
 	margin-top: 55px;
-	margin-bottom: 20px;
-	width: 320px;
+	/*width: 380px;*/
 	height: 30px;
 	text-overflow: ellipsis;
 	color: #2F3743;
@@ -255,12 +257,12 @@ body.show-leading::before {
 .container #description h5 {
 	padding-right: 50px;
 	padding-left: 50px;
-	margin-top: 0;
-	margin-bottom: 30px;
-	width: 320px;
+	margin-bottom: 20px;
+	/*width: 380px;*/
 	height: 20px;
 	text-overflow: ellipsis;
 	color: #2F3743;
+	opacity: 0.5;
 	font-family: 'Avenir';
 	font-weight: 300;
 	font-size: 16px;
@@ -271,8 +273,8 @@ body.show-leading::before {
 	padding-right: 50px;
 	padding-left: 50px;
 	margin-top: 0;
-	margin-bottom: 50px;
-	width: 320px;
+	margin-bottom: 30px;
+/*	width: 380px;*/
 	height: 225px;
 
 	text-overflow: ellipsis;
@@ -285,6 +287,7 @@ body.show-leading::before {
 }
 
 .container #description .tag_wrap {
+	position: relative;
 	margin-right: 50px;
 	margin-left: 50px;
 /*	width: 320px;*/
@@ -302,7 +305,6 @@ body.show-leading::before {
 	background: #FAFAFB;
 	border: 1px solid #E6E8EA;
 	border-radius: 100px;
-	/* Tags: */
 	font-weight: 300;
 	font-size: 15px;
 	color: #2F3743;
