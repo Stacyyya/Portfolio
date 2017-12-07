@@ -243,8 +243,9 @@ body.show-leading::before {
 	margin-top: 55px;
 	margin-bottom: 20px;
 	width: 320px;
-/*	height: 30px;
-*/	color: #2F3743;
+	height: 30px;
+	text-overflow: ellipsis;
+	color: #2F3743;
 	font-family: 'Avenir';
 	font-weight: 700;
 	font-size: 30px;
@@ -258,6 +259,7 @@ body.show-leading::before {
 	margin-bottom: 30px;
 	width: 320px;
 	height: 20px;
+	text-overflow: ellipsis;
 	color: #2F3743;
 	font-family: 'Avenir';
 	font-weight: 300;
@@ -271,8 +273,10 @@ body.show-leading::before {
 	margin-top: 0;
 	margin-bottom: 50px;
 	width: 320px;
-/*	height: 225px;
-*/	color: #2F3743;
+	height: 225px;
+
+	text-overflow: ellipsis;
+	color: #2F3743;
 	font-family: 'Avenir';
 	font-weight: 300;
 	font-size: 20px;
@@ -283,7 +287,6 @@ body.show-leading::before {
 .container #description .tag_wrap {
 	margin-right: 50px;
 	margin-left: 50px;
-	margin-top: 20px;
 /*	width: 320px;*/
 /*	height: 20px;*/
 /*	color: #2F3743;
