@@ -2,7 +2,7 @@ body {
 	color: #2F3743;
 	font-family: 'Avenir';
 	font-weight: 400;
-	background-color: #FAFAFB;
+	background-color: #ffffff;
 
 }
 
@@ -174,22 +174,53 @@ body.show-leading::before {
 	margin: 0 auto;
 	margin-bottom: 50px;
 	background-color: #fff;
-    /*border: 1px solid rgba(73, 82, 98, 0);*/
     border-radius: 10px;
-	box-shadow: rgba(73, 82, 98, 0.15) 0px 6px 40px 0px;
-	/*text-align: center;
-	line-height: 500px;*/
+	box-shadow: rgba(47,55,67,0.15) 0px 6px 40px 0px;
 	color: #e6e8ea;
+}
+
+
+.container #thumnail {
+	width: 540px;
+	height: 500px;
+	background-color: rgba(47,55,67,0.10);
+	float: left;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.container #thumnail a {
+	text-decoration: none;
+}
+
+.container #thumnail a .dim{
+	display: block;
+	position: absolute;
+	z-index: 1;
+	width: 540px;
+	height: 500px;
+	background-color: rgba(0,0,0,0);
+	text-align: center;
+	line-height: 500px;
+	color: rgba(0,0,0,0);
+	font-weight: 700;
+	font-size: 20px;
+	border-radius: 10px 0px 0px 10px;
+}
+
+
+.container #thumnail a:hover .dim,
+.container #thumnail a:focus .dim,
+.container #thumnail a:active .dim {
+	background-color: rgba(47,55,67,0.70);
+	transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+    color: #fff;
 }
 
 
 .container #thumnail img {
 	width: 540px;
-	height: 500px;
-/*	background-image: url(../img/work/bridge_me/Project img2.png);
-	background-size: 540px;*/
+/*	height: 500px;*/
 	border-radius: 10px 0px 0px 10px;
-    float: left;
 }
 
 
@@ -229,7 +260,7 @@ body.show-leading::before {
 	color: #2F3743;
 	font-family: 'Avenir';
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 16px;
 	text-align: left;
 }
 
