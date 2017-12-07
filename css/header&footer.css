@@ -45,6 +45,11 @@ body.show-leading::before {
 	float: left;
 }
 
+
+.logo a {
+	outline: 0;
+}
+
 .logo a img {
 	width: 40px;
 	height: 40px;
@@ -95,6 +100,7 @@ body.show-leading::before {
     font-size: 16px;
     line-height: 30px;
     text-decoration: none;
+    outline: 0;
 }
  
 .menu > ul > li > a::after {
@@ -124,6 +130,7 @@ body.show-leading::before {
 
 .language a {
 	text-decoration: none;
+	outline: 0;
 }
 
 .language a .flag {
@@ -184,6 +191,7 @@ body.show-leading::before {
   	display: block;
     text-decoration: none;
 	color: #2F3743;
+	outline: 0;
 }
  
 .dropdown_language li a:hover {
@@ -201,7 +209,7 @@ body.show-leading::before {
 	margin-top: 200px;
 	width: 100%;
 	height: 300px;
-	background-color: #E6E8EA;
+	background-color: #EDF0F3;
 }
 
 .contents {
@@ -232,7 +240,19 @@ body.show-leading::before {
 
 .footer .social a {
 	text-decoration: none;
+	outline: 0;
 }
+
+.footer .contact:hover,
+.footer .contact:focus,
+.footer .contact:active,
+.footer .social a:hover,
+.footer .social a:focus,
+.footer .social a:active {
+	opacity: 0.5;
+	transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
 
 .footer .social .behance img{
 	height: 18px;
@@ -248,7 +268,7 @@ body.show-leading::before {
 	padding-top: 230px;
 	text-align: center;
 	font-size: 14px;
-	color: #2F3743;
+	color: rgba(47,55,67,0.5);
 }
 
 

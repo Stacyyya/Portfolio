@@ -126,6 +126,7 @@ body.show-leading::before {
 	font-size: 16px;
 	font-weight: 700;
 	color: #2F3743;
+	outline: 0;
 	text-decoration: none;
 }
 
