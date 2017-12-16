@@ -25,6 +25,7 @@ body.show-leading::before {
 	margin: 0 auto;
 	width: 960px;
 	height: 730px;
+	position: relative;
 }
 
 .visual h1 {
@@ -106,13 +107,17 @@ body.show-leading::before {
 }
 
 
+.visual .scroll_down {
+	max-width: 960px;
+	width: 100vw;
+}
+
 
 .visual .scroll_down img {
 	margin-top: 120px;
 	margin: 0 auto;
 	width: 50px;
 	padding: 10px;
-	padding-bottom: 15px;
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1)
 	-webkit-animation: fade_move_down 1.2s ease-in-out infinite;
 	-moz-animation:    fade_move_down 1.2s ease-in-out infinite;
@@ -321,7 +326,7 @@ body.show-leading::before {
 	.visual {
 		width: 100%;
 		margin: 0 auto;
-		height: 600px;
+		height: 530px;
 	}
 
 	.visual h1 {
@@ -342,7 +347,6 @@ body.show-leading::before {
 	.visual .scroll img {
 		display: block;
 		margin-top: 80px;
-		margin-bottom: 80px;
 		width: 40px;
 		height: 40px;
 	}
@@ -359,9 +363,14 @@ body.show-leading::before {
 	}
 	
 	
-	.container #thumnail {
+	.container #thumnail, .container #description {
 		width: 50%;
 		height: 400px;
+	}
+
+	.container #thumnail a .dim{
+		height: 400px;
+		line-height: 400px;
 	}
 
 	.container #description h3 {
