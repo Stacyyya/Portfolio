@@ -330,7 +330,7 @@ body.show-leading::before {
 
 /* media query */
 
-@media (min-width: 321px) and (max-width: 768px) {
+/*@media (min-width: 321px) and (max-width: 768px) {
 	.visual {
 		width: 100%;
 		margin: 0 auto;
@@ -385,7 +385,6 @@ body.show-leading::before {
 		padding-right: 50px;
 		padding-left: 50px;
 		margin-top: 55px;
-		/*width: 380px;*/
 		height: 30px;
 		text-overflow: ellipsis;
 		color: #2F3743;
@@ -423,8 +422,6 @@ body.show-leading::before {
 		-webkit-line-clamp: 3
 	}
 }
-
-
 
 @media (max-width: 320px) {
 	.visual {
