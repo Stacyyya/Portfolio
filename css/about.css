@@ -89,16 +89,29 @@ body.show-leading::before {
 
 .contact {
 	margin: 0 auto;
+	margin-bottom: 40px;
 	width: 600px;
 }
 
 .contact h4{
 	margin: 0;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	color: #2F3743;
 	font-family: 'Avenir';
 	font-weight: 700;
 	font-size: 30px;
+	text-align: center;
+}
+
+.contact p {
+	width: 600px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+	color: #2F3743;
+	font-family: 'Avenir';
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 2.0rem;
 	text-align: center;
 }
 

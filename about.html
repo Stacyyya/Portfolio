@@ -37,20 +37,23 @@ Strive for authenticity in design & my life as well.</p>
 		<div class="contact">
 
 			<h4>Contact</h4>
+			
+			<p>Please do not hesitate to contact me </br>if you have any questions about my work or collaboration. </br> Welcome anytime.😊</p>
+
 
 			<form class="form" 
-					action="mailto:imstacyyya@gmail.com"
+					action="javascript:mailto()"
 					method="POST"
 					enctype="multipart/form-data"
 					name="EmailTestForm">
 					
 					Name*<br>
-					<input type="text" size="20" name="Name" placeholder="Type your name"><br><br>
-					Your Email Address*<br>
-					<input type="text" size="20" name="Email" placeholder="Type your email address"><br><br>
+					<input id="recipient_name" type="text" size="20" name="Name" placeholder="Type your name"><br><br>
+					<!-- Your Email Address*<br>
+					<input id="recipient_mail" type="text" size="20" name="Email" placeholder="Type your email address"><br><br> -->
 					
 					Message*<br>
-					<textarea type="text" name="Message"  placeholder="Leave your message"></textarea><br><br>
+					<textarea id="mail_body" type="text" name="Message"  placeholder="Leave your message"></textarea><br><br>
 					
 					<input type="submit" value="Submit">
 		
@@ -67,7 +70,16 @@ Strive for authenticity in design & my life as well.</p>
 
 	<script> 
 		$("#header").load("header.html"); 
-		$("#footer").load("footer.html"); 
+		$("#footer").load("footer.html");
+		function mailto() {
+			var name = $('#recipient_name').val();
+			var body = $('#mail_body').val();
+
+			var subject = "Inquiry from " + name;
+
+			var uri = "mailto:imstacyyya@gmail.com?subject=" + subject + "&body=" + body;
+			window.location.href = uri;
+		}
 	</script>
 
 </body>
