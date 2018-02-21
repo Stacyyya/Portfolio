@@ -268,12 +268,13 @@ body.show-leading::before {
 	margin-top: 55px;
 	/*width: 380px;*/
 	height: 30px;
-	text-overflow: ellipsis;
 	color: #2F3743;
 	font-family: 'Avenir';
 	font-weight: 700;
 	font-size: 30px;
 	text-align: left;
+	overflow: hidden;
+    text-overflow: ellipsis; 
 }
 
 .container #description h5 {
@@ -281,13 +282,14 @@ body.show-leading::before {
 	padding-left: 50px;
 	margin-bottom: 20px;
 	height: 20px;
-	text-overflow: ellipsis;
 	color: #2F3743;
 	opacity: 0.5;
 	font-family: 'Avenir';
 	font-weight: 300;
 	font-size: 16px;
 	text-align: left;
+	overflow: hidden;
+    text-overflow: ellipsis; 
 }
 
 .container #description p {
@@ -296,14 +298,14 @@ body.show-leading::before {
 	margin-top: 0;
 	margin-bottom: 30px;
 	height: 225px;
-
-	text-overflow: ellipsis;
 	color: #2F3743;
 	font-family: 'Avenir';
 	font-weight: 300;
 	font-size: 20px;
 	text-align: left;
 	line-height: 32px;
+	overflow: hidden;
+    text-overflow: ellipsis; 
 }
 
 .container #description .tag_wrap {
@@ -324,6 +326,8 @@ body.show-leading::before {
 	letter-spacing: 0;
 	text-align: center;
 	line-height: 20px;
+	overflow: hidden;
+    text-overflow: ellipsis; 
 }
 
 
