@@ -87,13 +87,13 @@ body.show-leading::before {
 
 /*contact*/
 
-.contact {
+.about-contact {
 	margin: 0 auto;
 	margin-bottom: 40px;
 	width: 600px;
 }
 
-.contact h4{
+.about-contact h4{
 	margin: 0;
 	margin-bottom: 40px;
 	color: #2F3743;
@@ -103,7 +103,7 @@ body.show-leading::before {
 	text-align: center;
 }
 
-.contact p {
+.about-contact p {
 	width: 600px;
 	margin: 0 auto;
 	margin-bottom: 80px;
@@ -115,7 +115,7 @@ body.show-leading::before {
 	text-align: center;
 }
 
-.contact .form {
+.about-contact .form {
 	margin: 0 auto;
 	width: 600px;
 }
