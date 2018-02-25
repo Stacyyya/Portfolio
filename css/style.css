@@ -203,7 +203,7 @@ body.show-leading::before {
 
 
 .container #thumnail {
-	width: 50%;
+	width: 480px;
 	height: 500px;
 	background-color: #f9f9fa;
 	float: left;
@@ -251,7 +251,7 @@ body.show-leading::before {
 
 .container #description {
 	margin: 0;
-	width: 50%;
+	width: 480px;
 	height: 500px;
 	float: left;
 }
@@ -266,14 +266,13 @@ body.show-leading::before {
 	padding-right: 50px;
 	padding-left: 50px;
 	margin-top: 55px;
-	/*width: 380px;*/
+	width: 380px;
 	height: 30px;
 	color: #2F3743;
 	font-family: 'Avenir';
 	font-weight: 700;
 	font-size: 30px;
 	text-align: left;
-	overflow: hidden;
     text-overflow: ellipsis; 
 }
 
@@ -288,7 +287,6 @@ body.show-leading::before {
 	font-weight: 300;
 	font-size: 16px;
 	text-align: left;
-	overflow: hidden;
     text-overflow: ellipsis; 
 }
 
@@ -304,7 +302,6 @@ body.show-leading::before {
 	font-size: 20px;
 	text-align: left;
 	line-height: 32px;
-	overflow: hidden;
     text-overflow: ellipsis; 
 }
 
@@ -334,7 +331,7 @@ body.show-leading::before {
 
 /* media query */
 
-/*@media (min-width: 321px) and (max-width: 768px) {
+*@media (min-width: 321px) and (max-width: 768px) {
 	.visual {
 		width: 100%;
 		margin: 0 auto;
@@ -426,7 +423,7 @@ body.show-leading::before {
 		-webkit-line-clamp: 3
 	}
 }
-
+/*
 @media (max-width: 320px) {
 	.visual {
 		width: 100%;
@@ -437,5 +434,6 @@ body.show-leading::before {
 		font-size: 24px;
 	}
 }
+*/
 
 
