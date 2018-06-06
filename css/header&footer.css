@@ -1,9 +1,9 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 body {
-	color: #2F3743;
-	font-family: 'Avenir';
-	font-weight: 400;
-/*	background-color: rgba(230,232,234,0.2);*/
-
+	color: #343a40;
+	font-family: 'Noto Sans CJK KR', 'Helvetica Neue', 'Apple SD Gothic Neo', arial, 나눔고딕, 'Nanum Gothic', 돋움, Dotum, Geneva, sans-serif;
+	font-weight: 300;
+	background-color: #ffffff;
 }
 
 body.show-leading::before {
@@ -62,7 +62,7 @@ body.show-leading::before {
     display:block;
     clear:both;
 }
- 
+
  /* menu */
 
 .menu-wrap {
@@ -78,15 +78,14 @@ body.show-leading::before {
 
 .menu li {
     list-style:none;
-	font-family: 'Avenir';
 }
- 
+
 .menu > ul > li {
     float: left;
     display: inline-block;
 /*    position: relative;
 */}
- 
+
 .menu > ul > li > a {
     display:inline-block;
 	position: relative;
@@ -94,22 +93,20 @@ body.show-leading::before {
     background: none;
 /*    padding-right: 15px;
     padding-left: 15px;*/
-    margin-right: 30px;    
+    margin-right: 30px;
 	margin-left: 30px;
-	font-family: 'Avenir';
-    color: #2F3743;
     font-size: 16px;
     line-height: 30px;
     text-decoration: none;
     outline: 0;
 }
- 
+
 .menu > ul > li > a::after {
 	content: '';
   	position: absolute;
   	bottom: 0;
   	left: 0;
-	border-bottom: 2px solid #2F3743; 
+	border-bottom: 2px solid #343a40;
 	width: 0%;
 	transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -164,7 +161,7 @@ body.show-leading::before {
     z-index: 10;
     opacity: 1;
 }
- 
+
 .dropdown_language {
 	margin: 0 auto;
     width: 64px;
@@ -180,23 +177,21 @@ body.show-leading::before {
     line-height: 28px;
     text-align: center;
 }
- 
+
 .dropdown_language li {
     display: block;
     font-size: 14px;
 }
- 
+
 .dropdown_language li a {
     padding-bottom: 1px;
     padding-top: 3px;
   	display: block;
     text-decoration: none;
-	color: #2F3743;
 	outline: 0;
 }
- 
+
 .dropdown_language li a:hover {
-	color: #2F3743;
     background: #E6E8EA;
     font-weight: 600;
 }
@@ -271,6 +266,3 @@ body.show-leading::before {
 	font-size: 14px;
 	color: rgba(47,55,67,0.5);
 }
-
-
-

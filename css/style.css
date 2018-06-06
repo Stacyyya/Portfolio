@@ -1,9 +1,9 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 body {
-	color: #2F3743;
-	font-family: 'Avenir';
-	font-weight: 400;
+	color: #343a40;
+	font-family: 'Noto Sans CJK KR', 'Helvetica Neue', 'Apple SD Gothic Neo', arial, 나눔고딕, 'Nanum Gothic', 돋움, Dotum, Geneva, sans-serif;
+	font-weight: 300;
 	background-color: #ffffff;
-
 }
 
 body.show-leading::before {
@@ -31,47 +31,45 @@ body.show-leading::before {
 .visual h1 {
 	width: 75%;
 	margin: 0px;
-/*	padding-left: 10px;
-*/	padding-top: 224px;
+	padding-top: 224px;
 	padding-bottom: 40px;
 	text-align: left;
-	font-family: 'Avenir';
-	font-weight: 900;
-	font-size: 40px;
+	font-weight: 500;
+	font-size: 36px;
 	letter-spacing: 0px;
-	color: #2F3743;
+
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 .visual p {
 	margin: 0px;
-/*	padding-left: 10px;
-*/	text-align: left;
-	font-family: 'Avenir';
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 1.5;
+  text-align: left;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 1.6em;
 	letter-spacing: 0px;
-	color: #2F3743;
+	color: #adb5bd;
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 
 /* dribbble & behance */
 
-.visual p .dribbble a {
+.visual .dribbble,
+.behance a {
 	position: relative;
-	font-weight: 700; 
-	color: #FF4274;
-    text-decoration: none;
+	float: left;
+	padding-top: 20px;
+	padding-right: 20px;
+  text-decoration: none;
 }
 
 .visual p .dribbble a::after {
 	content: '';
-  	position: absolute;
-  	bottom: 0;
-  	left: 0;
-	border-bottom: 2px solid #FF4274; 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-bottom: 2px solid #FF4274;
 	width: 0%;
 	transition: all 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -85,8 +83,8 @@ body.show-leading::before {
 
 .visual p .behance a {
 	position: relative;
-	font-weight: 700; 
-	color: #2A76FF;
+	font-weight: 700;
+	fill: #2A76FF;
     text-decoration: none;
 }
 
@@ -95,7 +93,7 @@ body.show-leading::before {
   	position: absolute;
   	bottom: 0;
   	left: 0;
-	border-bottom: 2px solid #2A76FF; 
+	border-bottom: 2px solid #2A76FF;
 	width: 0%;
 	transition: all 0.35s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -106,16 +104,25 @@ body.show-leading::before {
 	width: 100%;
 }
 
+.visual img .svg path {
+	fill: #2A76FF;
+}
+
 
 .visual .scroll_down {
 	max-width: 960px;
+	position: relative;
 	width: 100vw;
+}
+
+.visual .scroll {
+	position: absolute;
+	left: 50%;
 }
 
 
 .visual .scroll_down img {
 	margin-top: 120px;
-	margin: 0 auto;
 	width: 50px;
 	padding: 10px;
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1)
@@ -194,7 +201,7 @@ body.show-leading::before {
 }
 
 #work1:hover, #work2:hover,
-#work1:focus, #work2:focus, 
+#work1:focus, #work2:focus,
 #work1:active, #work2:active {
 	box-shadow: rgba(47,55,67,0.2) 0px 12px 60px 0px;
 	transform: translate(0,-20px);
@@ -250,6 +257,7 @@ body.show-leading::before {
 
 
 .container #description {
+	position: relative;
 	margin: 0;
 	width: 480px;
 	height: 500px;
@@ -268,26 +276,23 @@ body.show-leading::before {
 	margin-top: 55px;
 	width: 380px;
 	height: 30px;
-	color: #2F3743;
-	font-family: 'Avenir';
-	font-weight: 700;
+	color: #343a40;
+	font-weight: 500;
 	font-size: 30px;
 	text-align: left;
-    text-overflow: ellipsis; 
+  text-overflow: ellipsis;
 }
 
 .container #description h5 {
 	padding-right: 50px;
 	padding-left: 50px;
-	margin-bottom: 20px;
-	height: 20px;
-	color: #2F3743;
-	opacity: 0.5;
-	font-family: 'Avenir';
-	font-weight: 300;
-	font-size: 16px;
+	margin-bottom: 40px;
+	height: 17px;
+	color: #adb5bd;
+	font-weight: 200;
+	font-size: 15px;
 	text-align: left;
-    text-overflow: ellipsis; 
+  text-overflow: ellipsis;
 }
 
 .container #description p {
@@ -295,18 +300,17 @@ body.show-leading::before {
 	padding-left: 50px;
 	margin-top: 0;
 	margin-bottom: 30px;
-	height: 225px;
-	color: #2F3743;
-	font-family: 'Avenir';
-	font-weight: 300;
-	font-size: 20px;
+	color: #495057;
+	font-weight: 200;
+	font-size: 17px;
 	text-align: left;
-	line-height: 32px;
-    text-overflow: ellipsis; 
+	line-height: 1.6;
+  text-overflow: ellipsis;
 }
 
 .container #description .tag_wrap {
-	position: relative;
+	position: absolute;
+  bottom: 45px;
 	margin-right: 50px;
 	margin-left: 50px;
 }
@@ -314,26 +318,26 @@ body.show-leading::before {
 .container #description .tag_wrap .tag {
 	margin-right: 5px;
 	padding: 5px 14px;
-	background: #FAFAFB;
-	border: 1px solid #E6E8EA;
+	background: #f1f3f5;
+	border: 1px solid #dee2e6;
 	border-radius: 100px;
 	font-weight: 300;
-	font-size: 15px;
-	color: #2F3743;
+	font-size: 12px;
+	color: #495057;
 	letter-spacing: 0;
 	text-align: center;
 	line-height: 20px;
 	overflow: hidden;
-    text-overflow: ellipsis; 
+    text-overflow: ellipsis;
 }
 
 
 
 /* media query */
 
-@media screen 
-  and (min-width: 320px) 
-  and (max-width: 812px)  { 
+@media screen
+  and (min-width: 320px)
+  and (max-width: 812px)  {
 
 	.visual {
 		width: 100%;
@@ -364,20 +368,20 @@ body.show-leading::before {
 		width: 100%;
 		margin: 0 auto;
 	}
-	
+
 	.container #work1, #work2, #work3, #work4{
 		width: 100%;
 		height: auto;
 		margin: 10px;
 	}
-	
-	
-	.container #thumnail {	
+
+
+	.container #thumnail {
 		width: 100%;
 		height: auto;
 		border-radius: 10px;
 	}
-	
+
 	.container #thumnail img {
 		position: relative;
 		vertical-align: middle;
@@ -390,6 +394,8 @@ body.show-leading::before {
 	}
 
 }
+
+
 /*
 @media (max-width: 320px) {
 	.visual {
@@ -402,5 +408,3 @@ body.show-leading::before {
 	}
 }
 */
-
-
