@@ -1,10 +1,11 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
 body {
-	color: #2F3743;
-	font-family: 'Avenir';
-	font-weight: 400;
+	color: #343a40;
+	font-family: 'Noto Sans CJK KR', 'Helvetica Neue', 'Apple SD Gothic Neo', arial, 나눔고딕, 'Nanum Gothic', 돋움, Dotum, Geneva, sans-serif;
+	font-weight: 300;
 	background-color: #ffffff;
-
 }
+
 
 body.show-leading::before {
 	content: '';
@@ -24,7 +25,7 @@ body.show-leading::before {
 	margin: 0 auto;
 	text-align: center;
 	font-size: 36px;
-	font-weight: 700;
+	font-weight: 500;
 	margin-top: 100px;
 	margin-bottom: 30px;
 }
@@ -32,10 +33,11 @@ body.show-leading::before {
 #title .title_info {
 	margin: 0 auto;
 	text-align: center;
-	font-weight: 400;
+	font-weight: 200;
 	margin-bottom: 80px;
-	font-size: 18px;
-	color: rgba(47,55,67,0.50);
+	font-size: 17px;
+	color: #343a40;
+	opacity: 0.5;
 	letter-spacing: 0;
 	line-height: 20px;
 }
@@ -61,7 +63,7 @@ body.show-leading::before {
 	margin: 0 auto;
 	text-align: left;
 	font-size: 30px;
-	font-weight: 700;
+	font-weight: 500;
 	margin-top: 60px;
 	margin-bottom: 40px;
 }
@@ -70,8 +72,8 @@ body.show-leading::before {
 	width: 800px;
 	margin: 0 auto;
 	text-align: left;
-	font-size: 20px;
-	font-weight: 700;
+	font-size: 17px;
+	font-weight: 500;
 	margin-top: 20px;
 	margin-bottom: 40px;
 	color: rgba(47,55,67,0.50);
@@ -82,9 +84,9 @@ body.show-leading::before {
 	width: 800px;
 	margin: 0 auto;
 	text-align: left;
-	font-size: 20px;
-	font-weight: 300;
-	line-height: 2.0rem;
+	font-size: 17px;
+	font-weight: 200;
+	line-height: 1.6em;
 	padding-bottom: 60px;
 }
 
@@ -122,10 +124,10 @@ body.show-leading::before {
 	margin: 0;
 	width: 140px;
 	height: 24px;
-	text-align: left;	
-	font-size: 16px;
-	font-weight: 700;
-	color: #2F3743;
+	text-align: left;
+	font-size: 17px;
+	font-weight: 500;
+	color: #343a40;
 	outline: 0;
 	text-decoration: none;
 }
@@ -184,7 +186,3 @@ body.show-leading::before {
 	height: 14px;
 	float: right;
 }
-
-
-
-
