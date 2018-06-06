@@ -130,6 +130,7 @@ body.show-leading::before {
 .language a {
 	text-decoration: none;
 	outline: 0;
+	color: #343a40;
 }
 
 .language a .flag {
@@ -189,11 +190,12 @@ body.show-leading::before {
     padding-top: 3px;
   	display: block;
     text-decoration: none;
+		color: #343a40;
 	outline: 0;
 }
 
 .dropdown_language li a:hover {
-    background: #E6E8EA;
+    background: #e9ecef;
     font-weight: 600;
 }
 
@@ -206,7 +208,7 @@ body.show-leading::before {
 	margin-top: 200px;
 	width: 100%;
 	height: 300px;
-	background-color: #EDF0F3;
+	background-color: #ced4da;
 }
 
 .contents {
@@ -265,5 +267,5 @@ body.show-leading::before {
 	padding-top: 230px;
 	text-align: center;
 	font-size: 14px;
-	color: rgba(47,55,67,0.5);
+	color: #adb5bd;
 }
