@@ -56,7 +56,7 @@ body.show-leading::before {
 /* dribbble & behance */
 
 .visual .dribbble,
-.behance a {
+.visual .behance {
 	position: relative;
 	float: left;
 	padding-top: 20px;
