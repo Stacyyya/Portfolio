@@ -220,7 +220,7 @@ body.show-leading::before {
 
 
 .footer .social {
-	padding-top: 50px;
+	padding-top: 30px;
 	font-size: 12px;
 	text-align: center;
 }
@@ -248,11 +248,11 @@ body.show-leading::before {
 
 .footer .social img {
 	height: 20px;
-	padding-left: 40px;
+	padding: 20px;
 }
 
 .footer .copyright {
-	padding-top: 230px;
+	padding-top: 140px;
 	text-align: center;
 	font-size: 14px;
 	color: #adb5bd;
