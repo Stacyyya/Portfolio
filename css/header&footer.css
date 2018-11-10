@@ -220,7 +220,7 @@ body.show-leading::before {
 
 
 .footer .social {
-	padding-top: 30px;
+	padding-top: 20px;
 	font-size: 12px;
 	text-align: center;
 }
@@ -243,7 +243,6 @@ body.show-leading::before {
 
 .footer .social .behance img{
 	height: 18px;
-	padding-bottom: 1px;
 }
 
 .footer .social img {
@@ -252,7 +251,7 @@ body.show-leading::before {
 }
 
 .footer .copyright {
-	padding-top: 140px;
+	padding-top: 60px;
 	text-align: center;
 	font-size: 14px;
 	color: #adb5bd;
