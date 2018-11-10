@@ -199,7 +199,43 @@ body.show-leading::before {
     font-weight: 600;
 }
 
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
 
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color:rgba(0,0,0,0.8);
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    top: -10%;
+    right: 110%;
+    margin-left: -64px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 36%;
+    left: 104%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent rgba(0,0,0,0.8);
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
 
 
 /*Footer*/
