@@ -147,8 +147,7 @@ body.show-leading::before {
 
 /*Container*/
 .container {
-	max-width: 960px;
-	width: 100%;
+	width: 960px;
 	margin: 0 auto;
 	padding-top: 100px;
 	transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
