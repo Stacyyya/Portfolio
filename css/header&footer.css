@@ -234,7 +234,7 @@ body.show-leading::before {
 	margin: 0px;
 	padding-top: 50px;
 	font-size: 12px;
-	text-align: right;
+	text-align: center;
 }
 
 .footer .social a {
