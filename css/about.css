@@ -22,13 +22,12 @@ body.show-leading::before {
 
 #about {
 	margin: 0 auto;
-	width: 800px;
+	width: 864px;
 }
 
 #about .profile {
-	margin: 0 auto;
-	margin-top: 120px;
-	margin-bottom: 70px;
+	margin-top: 130px;
+	margin-bottom: 60px;
 	width: 120px;
 	height: 120px;
 	border-radius: 50%;
@@ -38,76 +37,50 @@ body.show-leading::before {
 
 #about .description h4 {
 	margin: 0;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	font-weight: 500;
 	font-size: 30px;
-	text-align: center;
 }
 
 #about .description p {
-	width: 600px;
-	margin: 0 auto;
 	font-weight: 200;
 	font-size: 17px;
 	line-height: 2.0rem;
-	text-align: center;
 }
 
-#about .btn_resume {
-	margin: 0 auto;
-	margin-top: 80px;
-	width: 200px;
-	height: 52px;
-	background-color: #2A76FF;
-	border-radius: 26px;
-	color: #fff;
-	font-weight: 500;
+#about .btn_link {
 	font-size: 17px;
-	line-height: 52px;
-  text-align: center;
-  text-decoration: none;
-  display: block;
+	text-decoration: underline;
+	color: #343a40;
 }
 
 
-#about .btn_resume:hover {
-    background-color: #1B63E4;
+#about .btn_link:hover {
+    color: #1B63E4;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-}
-
-
-.blank {
-	height: 120px;
 }
 
 
 /*contact*/
 
 .about-contact {
-	margin: 0 auto;
-	margin-bottom: 40px;
-	width: 600px;
+	margin-top: 40px;
+	margin-bottom: 120px;
 }
 
-.about-contact h4{
-	margin: 0;
-	margin-bottom: 40px;
+.about-contact h5{
+	margin-bottom: 15px;
 	font-weight: 500;
-	font-size: 30px;
-	text-align: center;
+	font-size: 17px;
 }
 
 .about-contact p {
-	width: 600px;
-	margin: 0 auto;
-	margin-bottom: 80px;
 	font-weight: 200;
 	font-size: 17px;
 	line-height: 2.0rem;
-	text-align: center;
 }
-
+/* 
 .about-contact .form {
 	margin: 0 auto;
 	width: 600px;
@@ -173,4 +146,4 @@ input[type=submit]:hover {
     background-color: #0AD4DC;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-}
+} */
